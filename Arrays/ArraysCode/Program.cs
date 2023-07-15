@@ -1,23 +1,19 @@
 ﻿using ArraysCode.JaggedArray.YearlyTransportPlan;
-using ArraysCode.MultiDimensional;
-using ArraysCode.MultiDimensional.GameMap;
-using ArraysCode.SingleDimensional;
 
-namespace ArraysCode
+namespace ArraysCode;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            //Single-Dimensional Arrays
-            //MonthNamesArray.RunSample();
+        //Single-Dimensional Arrays
+        //MonthNamesArray.RunSample();
 
-            //Multi-Dimensional Arrays
-            //MultiplicationTable.RunSample();
-            //GameMapArray.RunSample();
+        //Multi-Dimensional Arrays
+        //MultiplicationTable.RunSample();
+        //GameMapArray.RunSample();
 
-            //Jagged Array
-            YearlyTransportPlanArray.RunSample();
-        }
+        //Jagged Array
+        YearlyTransportPlanArray.RunSample();
     }
 }

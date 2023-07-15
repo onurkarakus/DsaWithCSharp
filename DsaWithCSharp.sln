@@ -5,7 +5,11 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{B433D915-3643-4C47-B926-A8F38AEEC173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysCode", "Arrays\ArraysCode\ArraysCode.csproj", "{92F39F80-CA82-4384-AB48-654BAACA4D18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysCode", "Arrays\ArraysCode\ArraysCode.csproj", "{92F39F80-CA82-4384-AB48-654BAACA4D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortingAlgorithms", "SortingAlgorithms", "{389097ED-05EC-4236-A6BB-0BF2989E21F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithmsCode", "SortingAlgorithms\SortingAlgorithmsCode\SortingAlgorithmsCode.csproj", "{668B5E1F-F164-489B-979D-602BDCBB6C67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{92F39F80-CA82-4384-AB48-654BAACA4D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F39F80-CA82-4384-AB48-654BAACA4D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F39F80-CA82-4384-AB48-654BAACA4D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668B5E1F-F164-489B-979D-602BDCBB6C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668B5E1F-F164-489B-979D-602BDCBB6C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668B5E1F-F164-489B-979D-602BDCBB6C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668B5E1F-F164-489B-979D-602BDCBB6C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92F39F80-CA82-4384-AB48-654BAACA4D18} = {B433D915-3643-4C47-B926-A8F38AEEC173}
+		{668B5E1F-F164-489B-979D-602BDCBB6C67} = {389097ED-05EC-4236-A6BB-0BF2989E21F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA0A832F-177A-4046-B65C-02CFCB1BBB3E}
